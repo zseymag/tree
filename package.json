@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "build": "bower install && grunt build",
+        "start": "nf start"
+      },
+        "build":"if [ $BUILD_ASSETS ]; then npm run build-assets; fi",
+        "build-assets": "bower install && grunt build"
+
+
+
+}
